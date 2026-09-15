@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="charcoalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e24" />
+      <stop offset="100%" stop-color="#141416" />
+    </linearGradient>
+    <linearGradient id="amberAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <pattern id="gridPattern" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#2a2a30" stroke-width="0.8" />
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="600" height="700" rx="16" fill="url(#charcoalGrad)" />
+  <rect width="600" height="700" rx="16" fill="url(#gridPattern)" opacity="0.4" />
+  
+  <!-- Geometric Frame Borders -->
+  <rect x="25" y="25" width="550" height="650" rx="12" fill="none" stroke="#2e2e38" stroke-width="1.5" />
+  <rect x="40" y="40" width="520" height="620" rx="8" fill="#18181d" stroke="#373744" stroke-width="1" />
+
+  <!-- Code Snippet Watermark in Background -->
+  <g opacity="0.18" fill="#a1a1aa" font-family="'Fira Code', monospace" font-size="11">
+    <text x="60" y="80">builder.Services.AddControllers();</text>
+    <text x="60" y="102">builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme);</text>
+    <text x="60" y="124">builder.Services.AddDbContext&lt;ApplicationDbContext&gt;(options =&gt;</text>
+    <text x="80" y="146">options.UseSqlServer(connectionString));</text>
+    <text x="60" y="168">builder.Services.AddScoped&lt;IUnitOfWork, UnitOfWork&gt;();</text>
+  </g>
+
+  <!-- Stylized Developer Silhouette with Clean Minimal Lines -->
+  <!-- Ambient Warm Aura Behind Silhouette -->
+  <circle cx="300" cy="340" r="160" fill="#d97706" opacity="0.08" />
+  <circle cx="300" cy="320" r="120" fill="#f59e0b" opacity="0.06" />
+
+  <g transform="translate(0, 30)">
+    <!-- Shoulders / Torso -->
+    <path d="M 170 560 C 170 450, 220 410, 300 410 C 380 410, 430 450, 430 560 Z" fill="#25252e" stroke="#3b3b4a" stroke-width="1.5" />
+    <!-- Collar / Shirt Detail -->
+    <path d="M 270 412 L 300 460 L 330 412" fill="none" stroke="#d97706" stroke-width="2" />
+    <polygon points="285,412 300,440 315,412" fill="#18181d" />
+
+    <!-- Neck -->
+    <rect x="278" y="345" width="44" height="75" rx="6" fill="#32323e" />
+
+    <!-- Head -->
+    <ellipse cx="300" cy="275" rx="72" ry="86" fill="#2d2d38" stroke="#3f3f50" stroke-width="1.5" />
+
+    <!-- Clean Hair Style -->
+    <path d="M 228 260 C 226 195, 270 175, 300 175 C 345 175, 375 200, 372 260 C 360 215, 335 198, 300 198 C 260 198, 238 220, 228 260 Z" fill="#16161b" />
+
+    <!-- Modern Developer Glasses -->
+    <rect x="250" y="260" width="40" height="26" rx="6" fill="#1a1a22" stroke="#d97706" stroke-width="2.2" />
+    <rect x="310" y="260" width="40" height="26" rx="6" fill="#1a1a22" stroke="#d97706" stroke-width="2.2" />
+    <line x1="290" y1="272" x2="310" y2="272" stroke="#d97706" stroke-width="2.2" />
+
+    <!-- Subtle Tech Headset / Earphones -->
+    <path d="M 226 270 C 220 270, 218 290, 226 295" fill="none" stroke="#64748b" stroke-width="3" />
+    <path d="M 374 270 C 380 270, 382 290, 374 295" fill="none" stroke="#64748b" stroke-width="3" />
+  </g>
+
+  <!-- Overlapping Modern Technical Floating Badge Top-Right -->
+  <g transform="translate(370, 75)">
+    <rect x="0" y="0" width="165" height="56" rx="8" fill="#16161a" stroke="#d97706" stroke-width="1.5" />
+    <circle cx="22" cy="28" r="10" fill="#27272e" />
+    <text x="22" y="32" fill="#f59e0b" font-family="'Fira Code', monospace" font-size="11" font-weight="700" text-anchor="middle">C#</text>
+    <text x="42" y="24" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700">.NET 8 &amp; C#</text>
+    <text x="42" y="42" fill="#9ca3af" font-family="'Fira Code', monospace" font-size="10.5">Backend Core</text>
+  </g>
+
+  <!-- Overlapping Modern Technical Floating Badge Bottom-Left -->
+  <g transform="translate(60, 520)">
+    <rect x="0" y="0" width="220" height="68" rx="8" fill="#16161a" stroke="#333340" stroke-width="1.5" />
+    <circle cx="26" cy="34" r="6" fill="#10b981" />
+    <text x="42" y="28" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700">Clean Architecture</text>
+    <text x="42" y="48" fill="#94a3b8" font-family="'Fira Code', monospace" font-size="10.5">REST APIs • EF Core • SQL</text>
+  </g>
+
+  <!-- Bottom Terminal Tag Bar -->
+  <g transform="translate(40, 608)">
+    <rect x="0" y="0" width="520" height="52" rx="0" fill="#121216" />
+    <text x="25" y="31" fill="#71717a" font-family="'Fira Code', monospace" font-size="12">yousef@qena-egypt:~$</text>
+    <text x="180" y="31" fill="#f59e0b" font-family="'Fira Code', monospace" font-size="12">dotnet run --environment Production</text>
+    <rect x="445" y="18" width="8" height="15" fill="#f59e0b" opacity="0.8" />
+  </g>
+</svg>

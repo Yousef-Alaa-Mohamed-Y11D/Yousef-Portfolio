@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917" />
+      <stop offset="100%" stop-color="#0c0a09" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f5f4" />
+      <stop offset="100%" stop-color="#d6d3d1" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#f59e0b" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Container -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bgGrad)" stroke="#292524" stroke-width="2" />
+  <rect x="4" y="4" width="56" height="56" rx="12" fill="none" stroke="#44403c" stroke-width="0.8" stroke-dasharray="3 3" opacity="0.4" />
+
+  <!-- Monogram Mark: Geometric 'Y' & 'A' with .NET Node -->
+  <!-- Left arm of Y -->
+  <path d="M18 18 L32 34" stroke="url(#cyanGrad)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Right arm of Y with Amber Accent -->
+  <path d="M46 18 L32 34" stroke="url(#goldGrad)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" />
+  
+  <!-- Vertical stem of Y transitioning to A's spine -->
+  <path d="M32 34 L32 48" stroke="url(#cyanGrad)" stroke-width="4.5" stroke-linecap="round" />
+
+  <!-- Interlocking geometric 'A' crossbar -->
+  <path d="M23 41 L41 41" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" />
+
+  <!-- The '.NET' Core Amber Pulse Node -->
+  <circle cx="47" cy="17" r="3.5" fill="#f59e0b" filter="url(#glow)" />
+  <circle cx="47" cy="17" r="1.5" fill="#ffffff" />
+</svg>

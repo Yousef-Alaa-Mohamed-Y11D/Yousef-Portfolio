@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <rect width="800" height="450" fill="#18181b" />
+  <rect x="40" y="40" width="720" height="370" rx="8" fill="#202024" stroke="#2e2e36" stroke-width="1.5" />
+  
+  <rect x="40" y="40" width="720" height="44" rx="8" fill="#272730" />
+  <circle cx="68" cy="62" r="5" fill="#ef4444" opacity="0.8" />
+  <circle cx="86" cy="62" r="5" fill="#f59e0b" opacity="0.8" />
+  <circle cx="104" cy="62" r="5" fill="#10b981" opacity="0.8" />
+  <text x="400" y="67" fill="#cbd5e1" font-family="'Fira Code', monospace" font-size="13" text-anchor="middle">Inventory Management Portal — Angular Client + .NET API</text>
+
+  <g transform="translate(65, 105)">
+    <!-- Metrics row -->
+    <rect x="0" y="0" width="205" height="60" rx="5" fill="#18181b" stroke="#3b82f6" />
+    <text x="15" y="24" fill="#93c5fd" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600">INVENTORY ITEMS</text>
+    <text x="15" y="48" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="18" font-weight="700">1,482 Active</text>
+
+    <rect x="225" y="0" width="205" height="60" rx="5" fill="#18181b" stroke="#10b981" />
+    <text x="240" y="24" fill="#6ee7b7" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600">STOCK HEALTH</text>
+    <text x="240" y="48" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="18" font-weight="700">98.4% In Stock</text>
+
+    <rect x="450" y="0" width="220" height="60" rx="5" fill="#18181b" stroke="#f59e0b" />
+    <text x="465" y="24" fill="#fde68a" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600">API SYNC LATENCY</text>
+    <text x="465" y="48" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="18" font-weight="700">18ms via REST</text>
+
+    <!-- Data Table -->
+    <rect x="0" y="80" width="670" height="200" rx="6" fill="#141417" stroke="#2e2e36" />
+    <rect x="0" y="80" width="670" height="36" rx="6" fill="#1c1c22" />
+    <text x="20" y="103" fill="#9ca3af" font-family="'Fira Code', monospace" font-size="11.5">SKU</text>
+    <text x="130" y="103" fill="#9ca3af" font-family="'Fira Code', monospace" font-size="11.5">ITEM NAME</text>
+    <text x="330" y="103" fill="#9ca3af" font-family="'Fira Code', monospace" font-size="11.5">CATEGORY</text>
+    <text x="460" y="103" fill="#9ca3af" font-family="'Fira Code', monospace" font-size="11.5">QTY</text>
+    <text x="560" y="103" fill="#9ca3af" font-family="'Fira Code', monospace" font-size="11.5">STATUS</text>
+
+    <!-- Row 1 -->
+    <text x="20" y="140" fill="#38bdf8" font-family="'Fira Code', monospace" font-size="11.5">PRD-8921</text>
+    <text x="130" y="140" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Industrial Sensor Mod</text>
+    <text x="330" y="140" fill="#a1a1aa" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Hardware</text>
+    <text x="460" y="140" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="12">340</text>
+    <rect x="555" y="126" width="75" height="20" rx="10" fill="#065f46" />
+    <text x="592" y="140" fill="#6ee7b7" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Optimal</text>
+
+    <!-- Row 2 -->
+    <text x="20" y="180" fill="#38bdf8" font-family="'Fira Code', monospace" font-size="11.5">PRD-7412</text>
+    <text x="130" y="180" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Micro Controller Unit</text>
+    <text x="330" y="180" fill="#a1a1aa" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Embedded</text>
+    <text x="460" y="180" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="12">45</text>
+    <rect x="555" y="166" width="75" height="20" rx="10" fill="#78350f" />
+    <text x="592" y="180" fill="#fcd34d" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Low Stock</text>
+
+    <!-- Row 3 -->
+    <text x="20" y="220" fill="#38bdf8" font-family="'Fira Code', monospace" font-size="11.5">PRD-9034</text>
+    <text x="130" y="220" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Ethernet Relay Hub</text>
+    <text x="330" y="220" fill="#a1a1aa" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Networking</text>
+    <text x="460" y="220" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="12">128</text>
+    <rect x="555" y="206" width="75" height="20" rx="10" fill="#065f46" />
+    <text x="592" y="220" fill="#6ee7b7" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Optimal</text>
+
+    <!-- Row 4 -->
+    <text x="20" y="260" fill="#38bdf8" font-family="'Fira Code', monospace" font-size="11.5">PRD-1029</text>
+    <text x="130" y="260" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Power Supply Unit 24V</text>
+    <text x="330" y="260" fill="#a1a1aa" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Power</text>
+    <text x="460" y="260" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="12">890</text>
+    <rect x="555" y="246" width="75" height="20" rx="10" fill="#065f46" />
+    <text x="592" y="260" fill="#6ee7b7" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Optimal</text>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <rect width="800" height="450" fill="#141416" />
+  <rect x="40" y="40" width="720" height="370" rx="8" fill="#1a1a1e" stroke="#2a2a30" stroke-width="1.5" />
+  
+  <!-- Header Bar -->
+  <rect x="40" y="40" width="720" height="44" rx="8" fill="#222228" />
+  <circle cx="68" cy="62" r="5" fill="#ef4444" opacity="0.8" />
+  <circle cx="86" cy="62" r="5" fill="#f59e0b" opacity="0.8" />
+  <circle cx="104" cy="62" r="5" fill="#10b981" opacity="0.8" />
+  <text x="400" y="67" fill="#a1a1aa" font-family="'Fira Code', monospace" font-size="13" text-anchor="middle">OpenAPI / Swagger UI — E-Commerce API Endpoints</text>
+  
+  <!-- Endpoints List -->
+  <g transform="translate(65, 105)">
+    <!-- Endpoint 1: POST Orders -->
+    <rect x="0" y="0" width="670" height="52" rx="6" fill="#141418" stroke="#10b981" stroke-width="1" />
+    <rect x="12" y="11" width="65" height="30" rx="4" fill="#065f46" />
+    <text x="44" y="31" fill="#6ee7b7" font-family="'Fira Code', monospace" font-size="12" font-weight="700" text-anchor="middle">POST</text>
+    <text x="95" y="32" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="13">/api/v1/orders/checkout</text>
+    <text x="650" y="32" fill="#9ca3af" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" text-anchor="end">Create order &amp; deduct stock (Unit of Work)</text>
+
+    <!-- Endpoint 2: GET Products -->
+    <rect x="0" y="66" width="670" height="52" rx="6" fill="#141418" stroke="#3b82f6" stroke-width="1" />
+    <rect x="12" y="77" width="65" height="30" rx="4" fill="#1e3a8a" />
+    <text x="44" y="97" fill="#93c5fd" font-family="'Fira Code', monospace" font-size="12" font-weight="700" text-anchor="middle">GET</text>
+    <text x="95" y="98" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="13">/api/v1/products?page=1&amp;pageSize=20&amp;category=hardware</text>
+    <text x="650" y="98" fill="#9ca3af" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" text-anchor="end">Paginated &amp; indexed SQL filter</text>
+
+    <!-- Endpoint 3: POST Auth Refresh -->
+    <rect x="0" y="132" width="670" height="52" rx="6" fill="#141418" stroke="#f59e0b" stroke-width="1" />
+    <rect x="12" y="143" width="65" height="30" rx="4" fill="#78350f" />
+    <text x="44" y="163" fill="#fcd34d" font-family="'Fira Code', monospace" font-size="12" font-weight="700" text-anchor="middle">POST</text>
+    <text x="95" y="164" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="13">/api/v1/auth/refresh-token</text>
+    <text x="650" y="164" fill="#9ca3af" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" text-anchor="end">Rotates refresh token &amp; issues new JWT</text>
+
+    <!-- Endpoint 4: PUT Cart -->
+    <rect x="0" y="198" width="670" height="52" rx="6" fill="#141418" stroke="#6366f1" stroke-width="1" />
+    <rect x="12" y="209" width="65" height="30" rx="4" fill="#312e81" />
+    <text x="44" y="229" fill="#c7d2fe" font-family="'Fira Code', monospace" font-size="12" font-weight="700" text-anchor="middle">PUT</text>
+    <text x="95" y="230" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="13">/api/v1/cart/items/{id}</text>
+    <text x="650" y="230" fill="#9ca3af" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" text-anchor="end">Update quantities &amp; calculate totals</text>
+  </g>
+</svg>

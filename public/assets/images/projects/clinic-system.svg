@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <rect width="800" height="450" fill="#14171a" />
+  <rect x="40" y="40" width="720" height="370" rx="8" fill="#1a1f24" stroke="#2a333d" stroke-width="1.5" />
+  
+  <rect x="40" y="40" width="720" height="44" rx="8" fill="#20272f" />
+  <circle cx="68" cy="62" r="5" fill="#ef4444" opacity="0.8" />
+  <circle cx="86" cy="62" r="5" fill="#f59e0b" opacity="0.8" />
+  <circle cx="104" cy="62" r="5" fill="#10b981" opacity="0.8" />
+  <text x="400" y="67" fill="#94a3b8" font-family="'Fira Code', monospace" font-size="13" text-anchor="middle">SQL Server Relational Schema — Clinic Scheduling System</text>
+
+  <!-- Relational Tables Representation -->
+  <g transform="translate(65, 105)">
+    <!-- Table Doctors -->
+    <rect x="0" y="0" width="195" height="135" rx="5" fill="#13171b" stroke="#38bdf8" stroke-width="1.5" />
+    <rect x="0" y="0" width="195" height="28" rx="5" fill="#0369a1" />
+    <text x="12" y="19" fill="#f0f9ff" font-family="'Fira Code', monospace" font-size="12" font-weight="700">Doctors</text>
+    <text x="12" y="48" fill="#fbbf24" font-family="'Fira Code', monospace" font-size="11">PK Id (int)</text>
+    <text x="12" y="68" fill="#cbd5e1" font-family="'Fira Code', monospace" font-size="11">FullName (nvarchar)</text>
+    <text x="12" y="88" fill="#cbd5e1" font-family="'Fira Code', monospace" font-size="11">Specialty (nvarchar)</text>
+    <text x="12" y="108" fill="#cbd5e1" font-family="'Fira Code', monospace" font-size="11">MaxDailySlots (int)</text>
+
+    <!-- Table Appointments -->
+    <rect x="240" y="55" width="205" height="175" rx="5" fill="#13171b" stroke="#d97706" stroke-width="1.5" />
+    <rect x="240" y="55" width="205" height="28" rx="5" fill="#b45309" />
+    <text x="252" y="74" fill="#fffbeb" font-family="'Fira Code', monospace" font-size="12" font-weight="700">Appointments</text>
+    <text x="252" y="103" fill="#fbbf24" font-family="'Fira Code', monospace" font-size="11">PK Id (bigint)</text>
+    <text x="252" y="123" fill="#38bdf8" font-family="'Fira Code', monospace" font-size="11">FK DoctorId (int)</text>
+    <text x="252" y="143" fill="#34d399" font-family="'Fira Code', monospace" font-size="11">FK PatientId (int)</text>
+    <text x="252" y="163" fill="#cbd5e1" font-family="'Fira Code', monospace" font-size="11">SlotDateTime (datetime2)</text>
+    <text x="252" y="183" fill="#cbd5e1" font-family="'Fira Code', monospace" font-size="11">Status (tinyint)</text>
+    <text x="252" y="203" fill="#cbd5e1" font-family="'Fira Code', monospace" font-size="11">Index: IX_Doctor_Slot</text>
+
+    <!-- Table Patients -->
+    <rect x="490" y="0" width="180" height="135" rx="5" fill="#13171b" stroke="#34d399" stroke-width="1.5" />
+    <rect x="490" y="0" width="180" height="28" rx="5" fill="#047857" />
+    <text x="502" y="19" fill="#ecfdf5" font-family="'Fira Code', monospace" font-size="12" font-weight="700">Patients</text>
+    <text x="502" y="48" fill="#fbbf24" font-family="'Fira Code', monospace" font-size="11">PK Id (int)</text>
+    <text x="502" y="68" fill="#cbd5e1" font-family="'Fira Code', monospace" font-size="11">NationalId (char)</text>
+    <text x="502" y="88" fill="#cbd5e1" font-family="'Fira Code', monospace" font-size="11">Phone (varchar)</text>
+    <text x="502" y="108" fill="#cbd5e1" font-family="'Fira Code', monospace" font-size="11">MedicalRecord (text)</text>
+
+    <!-- Connector lines -->
+    <path d="M 195 48 L 240 120" stroke="#38bdf8" stroke-width="1.5" fill="none" stroke-dasharray="4,4" />
+    <path d="M 490 48 L 445 140" stroke="#34d399" stroke-width="1.5" fill="none" stroke-dasharray="4,4" />
+
+    <!-- Bottom summary banner -->
+    <rect x="0" y="250" width="670" height="40" rx="4" fill="#0f172a" stroke="#334155" />
+    <text x="335" y="275" fill="#94a3b8" font-family="'Fira Code', monospace" font-size="12" text-anchor="middle">Constraint: UNIQUE(DoctorId, SlotDateTime) WITH (IGNORE_DUP_KEY = OFF)</text>
+  </g>
+</svg>

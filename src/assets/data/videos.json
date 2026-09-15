@@ -1,0 +1,38 @@
+[
+  {
+    "id": "vid-1",
+    "title": "Understanding Clean Architecture in ASP.NET Core Web API",
+    "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=640&auto=format&fit=crop&q=80",
+    "youtubeUrl": "https://www.youtube.com/@elshawesh-AI",
+    "description": "A practical walkthrough of separating Domain, Application, and Infrastructure layers in .NET for maintainable and testable code.",
+    "duration": "18:24",
+    "publishedDate": "2024"
+  },
+  {
+    "id": "vid-2",
+    "title": "Authentication & JWT with Refresh Tokens in C# .NET",
+    "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=640&auto=format&fit=crop&q=80",
+    "youtubeUrl": "https://www.youtube.com/@elshawesh-AI",
+    "description": "How to implement token-based security, access tokens, refresh token rotation in database, and authorization claims.",
+    "duration": "24:10",
+    "publishedDate": "2024"
+  },
+  {
+    "id": "vid-3",
+    "title": "Entity Framework Core: Relationships & Fluent API Explained",
+    "thumbnail": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=640&auto=format&fit=crop&q=80",
+    "youtubeUrl": "https://www.youtube.com/@elshawesh-AI",
+    "description": "One-to-many, many-to-many configurations, navigation properties, cascade rules, and migrations in EF Core with SQL Server.",
+    "duration": "21:45",
+    "publishedDate": "2024"
+  },
+  {
+    "id": "vid-4",
+    "title": "Mastering LINQ Queries & Performance in C#",
+    "thumbnail": "https://images.unsplash.com/photo-1516116211227-bbc06536ba9c?w=640&auto=format&fit=crop&q=80",
+    "youtubeUrl": "https://www.youtube.com/@elshawesh-AI",
+    "description": "Deferred execution, IQueryable vs IEnumerable, SQL translation analysis, and avoiding N+1 query traps.",
+    "duration": "16:50",
+    "publishedDate": "2024"
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "category": "Backend",
+    "description": "Enterprise server-side development with C# and ASP.NET Core, building robust RESTful APIs, layered architectures, and role-based authentication.",
+    "skills": [
+      "C#",
+      "ASP.NET Core",
+      "ASP.NET Core Web API",
+      "ASP.NET Core MVC",
+      "RESTful APIs",
+      "CRUD Operations",
+      "ASP.NET Core Identity",
+      "JWT & Refresh Tokens",
+      "Dependency Injection",
+      "Middleware Pipeline",
+      "Clean / Layered Architecture",
+      "Generic Repository Pattern",
+      "Unit of Work Pattern",
+      "SOLID Principles",
+      "Design Patterns",
+      "Clean Code"
+    ]
+  },
+  {
+    "category": "Database",
+    "description": "Relational data modeling, query optimization with LINQ, schema migrations, and ORM abstractions using Microsoft SQL Server and EF Core.",
+    "skills": [
+      "SQL Server",
+      "Entity Framework Core (EF Core)",
+      "LINQ Queries",
+      "EF Core Migrations",
+      "Relational Database Design",
+      "Database Relationships (1-to-1, 1-to-Many, Many-to-Many)",
+      "Fluent API Configuration",
+      "SQL Server Management Studio (SSMS)"
+    ]
+  },
+  {
+    "category": "Computer Science & Fundamentals",
+    "description": "Core computer science fundamentals learned through 4th-year university studies and competitive problem solving.",
+    "skills": [
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming (OOP)",
+      "Problem Solving",
+      "Complexity Analysis (Big-O)",
+      "Basic Computer Networks",
+      "Basic Operating Systems"
+    ]
+  },
+  {
+    "category": "Programming Languages",
+    "description": "Multi-paradigm programming languages utilized across academic coursework and software projects.",
+    "skills": [
+      "C# (.NET 8)",
+      "C++",
+      "Python",
+      "JavaScript"
+    ]
+  },
+  {
+    "category": "Tools & Environment",
+    "description": "Version control, API documentation, testing suites, and integrated development environments.",
+    "skills": [
+      "Git",
+      "GitHub & Version Control",
+      "Postman",
+      "Swagger / OpenAPI",
+      "Visual Studio",
+      "Visual Studio Code",
+      "WordPress"
+    ]
+  }
+]

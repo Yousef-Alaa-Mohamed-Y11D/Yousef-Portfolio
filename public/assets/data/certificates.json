@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cert-1",
+    "title": "Frontend using Angular",
+    "issuer": "Information Technology Institute (ITI) / Professional Training",
+    "date": "2024",
+    "image": "/assets/images/certificates/FrontEnd.jpg",
+    "credentialUrl": "https://www.linkedin.com/in/yousef-alaa-mohammed-9b3540326/",
+    "skills": ["html", "Css", "JS", "TS", "Angular"]
+  },
+  {
+    "id": "cert-2",
+    "title": "AI",
+    "issuer": "NTI",
+    "date": "2024",
+    "image": "/assets/images/certificates/AI.jpg",
+    "credentialUrl": "https://www.linkedin.com/in/yousef-alaa-mohammed-9b3540326/",
+    "skills": ["Python", "ML", "DL"]
+  },
+  {
+    "id": "cert-3",
+    "title": "Data Structures, Algorithms & Problem Solving in C++",
+    "issuer": "Computer Science Faculty & Competitive Programming Training",
+    "date": "2026",
+    "image": "/assets/images/certificates/DSA.png",
+    "credentialUrl": "https://github.com/Yousef-Alaa-Mohamed-Y11D",
+    "skills": ["Algorithms", "Data Structures", "Problem Solving", "C++"]
+  },
+  {
+    "id": "cert-4",
+    "title": "Object-Oriented Programming & Clean Code Architecture",
+    "issuer": "Software Engineering Curriculum — 4th Year Computer Science",
+    "date": "2024",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&auto=format&fit=crop&q=80",
+    "credentialUrl": "https://www.linkedin.com/in/yousef-alaa-mohammed-9b3540326/",
+    "skills": ["OOP", "SOLID", "Design Patterns", "Clean Code"]
+  }
+]

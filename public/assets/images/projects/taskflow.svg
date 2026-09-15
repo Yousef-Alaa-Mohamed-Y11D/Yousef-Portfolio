@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <rect width="800" height="450" fill="#151518" />
+  <rect x="40" y="40" width="720" height="370" rx="8" fill="#1b1b20" stroke="#2c2c34" stroke-width="1.5" />
+  
+  <!-- Header Bar -->
+  <rect x="40" y="40" width="720" height="44" rx="8" fill="#24242c" />
+  <circle cx="68" cy="62" r="5" fill="#ef4444" opacity="0.8" />
+  <circle cx="86" cy="62" r="5" fill="#f59e0b" opacity="0.8" />
+  <circle cx="104" cy="62" r="5" fill="#10b981" opacity="0.8" />
+  <text x="400" y="67" fill="#a1a1aa" font-family="'Fira Code', monospace" font-size="13" text-anchor="middle">TaskFlow.Domain / Specifications / TaskFilterSpecification.cs</text>
+
+  <!-- Left: Domain Spec code -->
+  <g transform="translate(65, 105)">
+    <rect x="0" y="0" width="340" height="280" rx="6" fill="#121215" stroke="#2c2c34" />
+    <text x="20" y="32" fill="#d97706" font-family="'Fira Code', monospace" font-size="12.5" font-weight="600">// CQRS Query Specification</text>
+    <text x="20" y="60" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="12.5">public class GetPendingTasksQuery</text>
+    <text x="20" y="85" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="12.5">  : IRequest&lt;PagedResult&lt;TaskDto&gt;&gt;</text>
+    <text x="20" y="110" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="12.5">{</text>
+    <text x="40" y="135" fill="#93c5fd" font-family="'Fira Code', monospace" font-size="12">  public Guid ProjectId { get; init; }</text>
+    <text x="40" y="160" fill="#93c5fd" font-family="'Fira Code', monospace" font-size="12">  public TaskStatus? Status { get; init; }</text>
+    <text x="40" y="185" fill="#93c5fd" font-family="'Fira Code', monospace" font-size="12">  public PriorityLevel Priority { get; init; }</text>
+    <text x="20" y="215" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="12.5">}</text>
+    <text x="20" y="250" fill="#10b981" font-family="'Fira Code', monospace" font-size="12">// Applied with LINQ IQueryable pipeline</text>
+  </g>
+
+  <!-- Right: Flow stages -->
+  <g transform="translate(430, 105)">
+    <rect x="0" y="0" width="305" height="60" rx="6" fill="#1e1e24" stroke="#d97706" />
+    <text x="18" y="26" fill="#f59e0b" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700">1. MediatR Command / Query</text>
+    <text x="18" y="46" fill="#9ca3af" font-family="'Fira Code', monospace" font-size="11">Decoupled in-process message dispatch</text>
+
+    <rect x="0" y="75" width="305" height="60" rx="6" fill="#1e1e24" stroke="#2c2c34" />
+    <text x="18" y="101" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700">2. FluentValidation Pipeline</text>
+    <text x="18" y="121" fill="#9ca3af" font-family="'Fira Code', monospace" font-size="11">Automatic request state verification</text>
+
+    <rect x="0" y="150" width="305" height="60" rx="6" fill="#1e1e24" stroke="#2c2c34" />
+    <text x="18" y="176" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700">3. Repository / EF Core Handler</text>
+    <text x="18" y="196" fill="#9ca3af" font-family="'Fira Code', monospace" font-size="11">Clean LINQ projection to DTO</text>
+
+    <rect x="0" y="225" width="305" height="55" rx="6" fill="#1e1e24" stroke="#10b981" stroke-width="1.2" />
+    <text x="18" y="250" fill="#34d399" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700">4. Audit Log &amp; Event Dispatched</text>
+    <text x="18" y="268" fill="#9ca3af" font-family="'Fira Code', monospace" font-size="11">Asynchronous record created in DB</text>
+  </g>
+</svg>

@@ -1,0 +1,95 @@
+[
+  {
+    "id": "rivo-api",
+    "title": "Rivo API — E-Commerce Backend API",
+    "description": "An enterprise e-commerce backend structured with Clean Architecture, separating the solution into API, Core, and Infrastructure layers using ASP.NET Core Web API and C#.",
+    "details": "Modeled core domain entities (Product, Category, Photo) with one-to-many relationships configured through EF Core Fluent API. Implemented Generic Repository and Unit of Work patterns to centralize data access logic. Configured Dependency Injection for repositories and DbContext with SQL Server. Integrated EF Core code-first migrations with seed data and Swagger for interactive OpenAPI documentation.",
+    "image": "/assets/images/projects/ecommerce-api.svg",
+    "liveDemo": null,
+    "github": "https://github.com/Yousef-Alaa-Mohamed-Y11D/Rivo-API",
+    "skills": [
+      "ASP.NET Core Web API",
+      "C#",
+      "Clean Architecture",
+      "Entity Framework Core",
+      "SQL Server",
+      "Generic Repository & Unit of Work",
+      "Swagger"
+    ],
+    "featured": true,
+    "category": "backend"
+  },
+  {
+    "id": "game-management-platform",
+    "title": "Game Management Platform",
+    "description": "An ASP.NET Core MVC application for administrators to create, edit, and manage games with category assignments, device support, and role-based access control.",
+    "details": "Implemented ASP.NET Core Identity with role-based authorization restricting actions to Admin users. Modeled many-to-many relationships between games and supported devices using EF Core migrations. Built cover image upload with custom file extension and size validation attributes. Enhanced UI with Select2 dropdowns and jQuery AJAX with SweetAlert2 confirmation for asynchronous game deletion.",
+    "image": "/assets/images/projects/inventory-dashboard.svg",
+    "liveDemo": null,
+    "github": "https://github.com/Yousef-Alaa-Mohamed-Y11D/Game-Management-Platform",
+    "skills": [
+      "ASP.NET Core MVC",
+      "ASP.NET Core Identity",
+      "SQL Server",
+      "EF Core Migrations",
+      "Many-to-Many Relationships",
+      "jQuery AJAX & SweetAlert2"
+    ],
+    "featured": true,
+    "category": "fullstack"
+  },
+  {
+    "id": "student-hub",
+    "title": "StudentHub — Collaborative Student Platform",
+    "description": "A collaborative student platform project where Yousef contributed to the core backend module as part of a team development effort.",
+    "details": "Contributed to the backend architecture within a shared team codebase, enforcing clean code conventions, Git branch workflows, pull requests, and automated endpoint verification.",
+    "image": "/assets/images/projects/studenthub.svg",
+    "liveDemo": null,
+    "github": "https://github.com/Yousef-Alaa-Mohamed-Y11D/Student-Hub",
+    "skills": [
+      "C#",
+      "ASP.NET Core",
+      "SQL Server",
+      "Git & GitHub Collaboration",
+      "CRUD Operations",
+      "RESTful APIs"
+    ],
+    "featured": true,
+    "category": "backend"
+  },
+  {
+    "id": "khubara-al-wasat",
+    "title": "Khubara Al-Wasat Office — Production Website",
+    "description": "Production website delivered for a real business client (مكتب خبراء الوساطة), covering full lifecycle from requirements gathering to live deployment.",
+    "details": "Translated business client requirements into a functional web presence presenting the firm's services and corporate information. Built responsive, user-friendly pages with structured content and managed live server deployment.",
+    "image": "/assets/images/projects/talenest-backend.svg",
+    "liveDemo": "https://khubaraalwasat.com",
+    "github": null,
+    "skills": [
+      "Freelance Delivery",
+      "Client Requirement Analysis",
+      "Production Deployment",
+      "Responsive Web Design",
+      "Web Management"
+    ],
+    "featured": false,
+    "category": "fullstack"
+  },
+  {
+    "id": "ecommerce-store-client",
+    "title": "Client E-Commerce Web Store (Mostaql)",
+    "description": "Freelance client engagement delivered via Mostaql platform, featuring product catalog browsing, cart functionality, and responsive multi-device design.",
+    "details": "Analyzed client specifications, built structured product listing functionality, ensured responsive UI behavior across mobile and desktop, and managed full project delivery and handoff.",
+    "image": "/assets/images/projects/clinic-system.svg",
+    "liveDemo": null,
+    "github": null,
+    "skills": [
+      "Freelance Engagement",
+      "E-Commerce Workflow",
+      "UI/UX Implementation",
+      "Client Communication"
+    ],
+    "featured": false,
+    "category": "fullstack"
+  }
+]

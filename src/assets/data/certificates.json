@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cert-1",
+    "title": "ASP.NET Core Web API Development",
+    "issuer": "Information Technology Institute (ITI) / Professional Training",
+    "date": "2024",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&auto=format&fit=crop&q=80",
+    "credentialUrl": "https://www.linkedin.com/in/yousef-alaa-mohammed-9b3540326/",
+    "skills": ["C#", "ASP.NET Core", "REST APIs", "EF Core"]
+  },
+  {
+    "id": "cert-2",
+    "title": "Database Design & SQL Server Administration",
+    "issuer": "Microsoft Technical Specialization / Academic Coursework",
+    "date": "2023",
+    "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&auto=format&fit=crop&q=80",
+    "credentialUrl": "https://www.linkedin.com/in/yousef-alaa-mohammed-9b3540326/",
+    "skills": ["SQL Server", "Relational Modeling", "Indexing", "T-SQL"]
+  },
+  {
+    "id": "cert-3",
+    "title": "Data Structures, Algorithms & Problem Solving in C++",
+    "issuer": "Computer Science Faculty & Competitive Programming Training",
+    "date": "2023",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&auto=format&fit=crop&q=80",
+    "credentialUrl": "https://github.com/Yousef-Alaa-Mohamed-Y11D",
+    "skills": ["Algorithms", "Data Structures", "Problem Solving", "C++"]
+  },
+  {
+    "id": "cert-4",
+    "title": "Object-Oriented Programming & Clean Code Architecture",
+    "issuer": "Software Engineering Curriculum — 4th Year Computer Science",
+    "date": "2024",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&auto=format&fit=crop&q=80",
+    "credentialUrl": "https://www.linkedin.com/in/yousef-alaa-mohammed-9b3540326/",
+    "skills": ["OOP", "SOLID", "Design Patterns", "Clean Code"]
+  }
+]

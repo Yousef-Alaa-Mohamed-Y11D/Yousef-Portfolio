@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e24" />
+      <stop offset="100%" stop-color="#121214" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)" />
+  <rect x="40" y="40" width="720" height="370" rx="8" fill="#18181b" stroke="#27272a" stroke-width="1.5" />
+  
+  <!-- Header Bar -->
+  <rect x="40" y="40" width="720" height="44" rx="8" fill="#202024" />
+  <circle cx="68" cy="62" r="5" fill="#ef4444" opacity="0.8" />
+  <circle cx="86" cy="62" r="5" fill="#f59e0b" opacity="0.8" />
+  <circle cx="104" cy="62" r="5" fill="#10b981" opacity="0.8" />
+  <text x="400" y="67" fill="#a1a1aa" font-family="'Fira Code', monospace" font-size="13" text-anchor="middle">StudentHub.Api / Controllers / StudentsController.cs</text>
+  
+  <!-- Code & Architecture Diagram -->
+  <!-- Left Side: Code Editor -->
+  <rect x="65" y="105" width="370" height="280" rx="6" fill="#121215" stroke="#27272a" />
+  <text x="85" y="135" fill="#d97706" font-family="'Fira Code', monospace" font-size="13" font-weight="600">[Authorize(Roles = "Admin,Registrar")]</text>
+  <text x="85" y="160" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="13">[HttpPost("enroll")]</text>
+  <text x="85" y="185" fill="#38bdf8" font-family="'Fira Code', monospace" font-size="13">public async Task<text fill="#f8fafc">&lt;</text><text fill="#fbbf24">IActionResult</text><text fill="#f8fafc">&gt;</text></text>
+  <text x="85" y="210" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="13">EnrollStudent([FromBody] EnrollDto dto)</text>
+  <text x="85" y="235" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="13">{</text>
+  <text x="105" y="260" fill="#94a3b8" font-family="'Fira Code', monospace" font-size="12.5">  var result = await _studentService</text>
+  <text x="105" y="285" fill="#94a3b8" font-family="'Fira Code', monospace" font-size="12.5">    .ProcessEnrollmentAsync(dto);</text>
+  <text x="105" y="310" fill="#38bdf8" font-family="'Fira Code', monospace" font-size="12.5">  return Ok(result);</text>
+  <text x="85" y="335" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="13">}</text>
+
+  <!-- Right Side: Architecture Stack -->
+  <rect x="460" y="105" width="275" height="75" rx="6" fill="#1f1f23" stroke="#d97706" stroke-width="1.5" />
+  <text x="480" y="135" fill="#f59e0b" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700">API &amp; Presentation</text>
+  <text x="480" y="158" fill="#a1a1aa" font-family="'Fira Code', monospace" font-size="11.5">JWT Auth • Controllers • Middleware</text>
+
+  <line x1="597" y1="180" x2="597" y2="205" stroke="#d97706" stroke-width="2" stroke-dasharray="3,3" />
+
+  <rect x="460" y="205" width="275" height="75" rx="6" fill="#1f1f23" stroke="#27272a" />
+  <text x="480" y="235" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700">Core Domain &amp; Services</text>
+  <text x="480" y="258" fill="#a1a1aa" font-family="'Fira Code', monospace" font-size="11.5">Entities • Business Rules • DTOs</text>
+
+  <line x1="597" y1="280" x2="597" y2="305" stroke="#52525b" stroke-width="2" stroke-dasharray="3,3" />
+
+  <rect x="460" y="305" width="275" height="80" rx="6" fill="#1f1f23" stroke="#27272a" />
+  <text x="480" y="335" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700">Infrastructure &amp; SQL Server</text>
+  <text x="480" y="358" fill="#a1a1aa" font-family="'Fira Code', monospace" font-size="11.5">EF Core • Migrations • Identity</text>
+</svg>
